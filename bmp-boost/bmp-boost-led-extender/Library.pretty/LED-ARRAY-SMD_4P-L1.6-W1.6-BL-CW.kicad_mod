@@ -1,0 +1,210 @@
+(footprint "LED-ARRAY-SMD_4P-L1.6-W1.6-BL-CW"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.45 180)
+		(layer "F.SilkS")
+		(uuid "ee274063-509a-4f3c-8f57-43b9eadd6e2c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "19-237/R6G7Y5C-A01/2T"
+		(at 0 4.45 180)
+		(layer "F.Fab")
+		(uuid "70a84cd0-ac4d-42cf-b115-614a1be6e857")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://lcsc.com/product-detail/_Everlight-Elec-19-237-R6G7Y5C-A01-2T_C264510.html"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "54d14d49-8f9a-4fb1-9e76-4b06e214de9d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f12d2093-5f4b-44d7-93e8-609380004c11")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part" "C264510"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "434c5938-6d36-440c-8df3-0a53cd38e9ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.8 -0.95)
+		(end 0.85 -0.95)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "690591f9-b957-4329-90e3-c325d4d379a3")
+	)
+	(fp_line
+		(start 0.85 0.95)
+		(end -0.8 0.95)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6dc04414-3df3-4cb1-94c3-16bf6fb9e776")
+	)
+	(fp_circle
+		(center -1.35 1)
+		(end -1.24 1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "8362bb9f-6ab4-43a5-bb62-18cbea947094")
+	)
+	(fp_circle
+		(center -1.11 0.69)
+		(end -1.01 0.69)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "d15671a9-ff8a-406d-9ce6-da0fba22c541")
+	)
+	(fp_circle
+		(center -0.8 0.8)
+		(end -0.77 0.8)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "39bced09-8515-432b-9b82-3bbeab014e13")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "e3fe9851-cfbf-4906-8577-725d3dfe9d99")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.8 0.45)
+		(size 0.8 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "5d9bc224-52dc-4348-81f6-dcb4a599dd7d")
+	)
+	(pad "2" smd rect
+		(at 0.8 0.45)
+		(size 0.8 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "28f1b057-4723-4ae2-bace-d3638b5e62c8")
+	)
+	(pad "3" smd rect
+		(at -0.8 -0.45)
+		(size 0.8 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "0251c133-2b35-4109-ad6d-274225b06ed3")
+	)
+	(pad "4" smd rect
+		(at 0.8 -0.45)
+		(size 0.8 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "e5187dc3-97d6-4bfd-a934-3d0b894e7023")
+	)
+	(embedded_fonts no)
+	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/LED-SMD-4P_L1.6-W1.6-H0.4-LS1.6.wrl"
+		(offset
+			(xyz 0 -0 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
